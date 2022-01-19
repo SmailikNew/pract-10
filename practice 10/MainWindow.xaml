@@ -1,0 +1,19 @@
+﻿<Window x:Class="practice_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:practice_10"
+        mc:Ignorable="d"
+        Title="Коллекции" Height="427" Width="307" ResizeMode="NoResize">
+    <Grid>
+        <ListBox x:Name="listbox1"  HorizontalAlignment="Left" Height="211" Margin="10,10,0,0" VerticalAlignment="Top" Width="272"/>
+        <Button Content="Заполнить" HorizontalAlignment="Left" Margin="10,264,0,0" VerticalAlignment="Top" Width="272" Click="completeListBox"/>
+        <Button Content="Найти" HorizontalAlignment="Left" Margin="10,295,0,0" VerticalAlignment="Top" Width="272" Click="sumMultiplesOfSeven"/>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="10,325,0,0" VerticalAlignment="Top" Width="272" Click="clear"/>
+        <Button Content="О программе" HorizontalAlignment="Left" Margin="10,363,0,0" VerticalAlignment="Top" Width="127" Click="information"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="155,363,0,0" VerticalAlignment="Top" Width="127" Click="exit"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="23" Margin="10,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272" IsReadOnly="True"/>
+
+    </Grid>
+</Window>
